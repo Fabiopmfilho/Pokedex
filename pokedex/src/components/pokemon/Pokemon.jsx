@@ -11,7 +11,7 @@ const TYPE_COLORS = {
   dragon: '755EDF',
   electric: 'FCBC17',
   fairy: 'F4B1F4',
-  fighting: '823551D',
+  fighting: '995b51',
   fire: 'E73B0C',
   flying: 'A3B3F7',
   ghost: '6060B2',
@@ -78,7 +78,7 @@ const Form = () => {
     <ThemeContext.Provider value={theme} className='App'>
       <div className='App'>
         <div className='titleSection'>
-          <h1>PokeDex</h1>
+          <h1>PokeDex</h1>     
           <input
             type='text'
             placeholder='Procurar Pokemon'
@@ -87,7 +87,7 @@ const Form = () => {
               (event) => (setPokemon(event.target.value))}
           />
           <button onClick={searchPokemon} className='search'><i className="fas fa-search"></i> Procurar</button>
-
+          
           <button onClick={toggleTheme} className='switchTheme'>
             <i className="fas fa-adjust"></i>
           </button>

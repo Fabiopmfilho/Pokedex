@@ -67,8 +67,8 @@
 .stats {
   background-color: #c4c4c4;
   border-radius: 20px;padding: 20px;
-  width: 30%;
   word-wrap: break-word;
+  box-shadow: 1px 1px 5px grey;
 }
 
 .switchTheme {
